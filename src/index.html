@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Formulario de Registro CRUD</title>
+        <link rel="stylesheet" href="output.css" type="text/css">
+    </head>
+    <body class="h-screen bg-[url(5b792ce1080ada5be94dfb3acde27ba6.jpg)]">
+        <br>
+        <div class="text-center font-serif font-medium text-3xl ">
+            <h2>¡Regístrate para no perderte nuestras novedades!</h2>
+        </div>
+        <br> <br>
+        <form action="index.php" method="POST" class="flex flex-col justify-center items-center">
+            
+            <div class="backdrop-blur-xl bg-white/40 rounded-md ">
+            <label for="nombre" class="font-sans font-medium">Nombre:</label> <br> 
+            <label><input class="range bg-teal-50 border rounded-full placeholder-gray-300 border-violet-600" type="text" name="nombre" placeholder=" Introduzca su nombre" size="40" maxlength="30" required/ ></label> <br> 
+
+            <label for="apellido" class="font-sans font-medium">Primer apellido:</label> <br> 
+            <label><input class="range bg-teal-50 border rounded-full placeholder-gray-300 border-violet-600" type="text" name="primer_apellido" placeholder=" Introduzca su primer apellido" size="40" maxlength="30" required/ ></label> <br> 
+
+            <label for="apellido" class="font-sans font-medium">Segundo apellido:</label> <br> 
+            <label><input class="range bg-teal-50 border rounded-full placeholder-gray-300 border-violet-600" type="text" name="segundo_apellido" placeholder=" Introduzca su segundo apellido" size="40" maxlength="30" required/ ></label> <br> 
+
+            <label for="email" class="font-sans font-medium">Email:</label> <br> 
+            <label><input class="range bg-teal-50 border rounded-full placeholder-gray-300 border-violet-600" type="email" name="email" placeholder=" ejemplo@ejemplo.com"  size="40" maxlength="40" required/ ></label> <br>
+
+            <label for="login" class="font-sans font-medium">Nombre usuario:</label> <br>
+            <label><input class="range bg-teal-50 border rounded-full placeholder-gray-300 border-violet-600" type="text" name="login" placeholder=" Nombre de usuario" size="40" maxlength="30" minlength="4" required/></label> <br>
+
+            <label for="password" class="font-sans font-medium">Password:</label> <br>
+            <label><input class="range bg-teal-50 border rounded-full placeholder-gray-300 border-violet-600" type="password" minlength="4" maxlength="8" size="40" name="clave" placeholder=" Clave" required></label> <br> <br>
+            </div>
+            <br>
+
+            <div class="flex space-x-3">
+                <div class="bg-cyan-200 rounded-md text-md ">
+                    <input type="submit" name="submit" value="Enviar " class="cursor-pointer" />
+                    </div>
+                    <div class="bg-cyan-200 rounded-md text-md">
+                    <input type="reset" name="reset" value="Reset " class="cursor-pointer"/>
+                    </div>
+            </div>
+            
+
+            <script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href);
+    }
+</script>
+
+            
+        </form>     
+        </div>    
+    </body>
+</html>  
+
+        

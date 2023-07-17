@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*.titulo{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #AD41B3;
+    background-color: #FAEAB4;
+    font-size: x-large;
+    border-radius: 20px;
+
+}
+
+body {
+    background: linear-gradient(0.25turn,#FAEAB4,#F484FA,#6BFADD, #53AD9B );
+}
+
+.formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+
+}
+
+
+.botones {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background-color: #AD41B3;
+}
+
+input{
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 20px 1px;
+    border-radius: 20px;
+    
+}
+
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+*/
